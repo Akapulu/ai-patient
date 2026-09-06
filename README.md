@@ -17,7 +17,7 @@ afterward and hands you a graded report card.
 ```
 knowledge-base/Case-File.md   the patient (upload this as your Akapulu knowledge base)
 rubric/Grading-Rubric.md      what the scorer grades against (stays in the repo — see note)
-scenario.json                 (coming) paste into the Akapulu scenario editor
+scenario.json                 paste into the Akapulu scenario editor (JSON toggle)
 scorer/                       (coming) transcript → Claude → report card
 .env.example                  copy to .env  (cp .env.example .env — NOT .env.local)
 ```
@@ -29,7 +29,7 @@ rubric from this repo. Two artifacts, on purpose.
 ## Run order (credit-safe — follow it in order)
 
 1. Create the knowledge base, upload `Case-File.md`, wait for **Completed** (refresh the page)
-2. Build the scenario (paste `scenario.json`, fill in your KB id everywhere it appears)
+2. Build the scenario (paste `scenario.json`, fill in your KB id everywhere it appears (3 places))
 3. Tune the fork in **LLM test mode only** (0.25 credits/run)
 4. Prove the scorer against `scorer/sample-transcript.json` (0 credits)
 5. Mint the hosted link: **Record Conversation ON** + set a **Redirect URL** + click
