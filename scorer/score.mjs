@@ -34,6 +34,7 @@ const response = await client.beta.messages.parse({
   fallbacks: "default",
   system: [
     "You grade a nursing student's bedside conversation with a simulated patient.",
+    "The PATIENT is Morgan Chen. The NURSE is the learner being graded - address the coaching directly to the learner as you, never by name.",
     "Grade strictly against the rubric below. Quote the transcript for every criterion — evidence, not vibes.",
     "GROUND TRUTH: the node path in square brackets is authoritative for what actually happened.",
     "A path containing 'stabilized' reached via explicit escalation means the red flag was caught;",
