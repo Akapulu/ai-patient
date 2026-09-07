@@ -1,0 +1,12 @@
+{
+  "name": "ai-patient",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "score": "node scorer/score.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "latest",
+    "zod": "^4"
+  }
+}

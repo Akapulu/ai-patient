@@ -18,7 +18,7 @@ afterward and hands you a graded report card.
 knowledge-base/Case-File.md   the patient (upload this as your Akapulu knowledge base)
 rubric/Grading-Rubric.md      what the scorer grades against (stays in the repo — see note)
 scenario.json                 paste into the Akapulu scenario editor (JSON toggle)
-scorer/                       (coming) transcript → Claude → report card
+scorer/                       transcript → Claude → report card (npm install, then: npm run score)
 .env.example                  copy to .env  (cp .env.example .env — NOT .env.local)
 ```
 
