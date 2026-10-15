@@ -1,3 +1,5 @@
+**Deprecated.** This repository is not maintained. The current public example is [akapulu-examples](https://github.com/Akapulu/akapulu-examples).
+
 # AI Patient That Grades You
 
 Build an AI patient with a hidden red flag. Miss it and the patient deteriorates
